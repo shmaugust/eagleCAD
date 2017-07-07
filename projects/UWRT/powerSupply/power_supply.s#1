@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="8.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5182,7 +5182,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="441.96" y="284.48"/>
 </segment>
 </net>
-<net name="OUT555" class="0">
+<net name="N$13" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
 <pinref part="U1" gate="A" pin="SRCLK"/>
@@ -5239,49 +5239,49 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="340.36" y="274.32"/>
 </segment>
 </net>
-<net name="NAND1" class="0">
+<net name="N$2" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="QA"/>
 <pinref part="S1" gate="A" pin="1"/>
 <wire x1="274.32" y1="274.32" x2="284.48" y2="274.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="NAND2" class="0">
+<net name="N$6" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="QB"/>
 <pinref part="S1" gate="A" pin="2"/>
 <wire x1="274.32" y1="271.78" x2="284.48" y2="271.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="NAND3" class="0">
+<net name="N$7" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="QC"/>
 <pinref part="S1" gate="A" pin="3"/>
 <wire x1="274.32" y1="269.24" x2="284.48" y2="269.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="NAND4" class="0">
+<net name="N$8" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="QD"/>
 <pinref part="S1" gate="A" pin="4"/>
 <wire x1="274.32" y1="266.7" x2="284.48" y2="266.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="NAND5" class="0">
+<net name="N$9" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="QE"/>
 <pinref part="S1" gate="A" pin="5"/>
 <wire x1="274.32" y1="264.16" x2="284.48" y2="264.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="NAND6" class="0">
+<net name="N$10" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="QF"/>
 <pinref part="S1" gate="A" pin="6"/>
 <wire x1="274.32" y1="261.62" x2="284.48" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="NAND7" class="0">
+<net name="N$11" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="QG"/>
 <pinref part="S1" gate="A" pin="7"/>
