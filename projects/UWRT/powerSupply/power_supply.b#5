@@ -167,10 +167,13 @@
 <wire x1="14" y1="7.8" x2="14" y2="0" width="0.1524" layer="20"/>
 <dimension x1="0" y1="7.8" x2="14" y2="7.8" x3="7" y3="-6.35" textsize="1.778" layer="51" visible="yes"/>
 <dimension x1="87.6" y1="0" x2="87.6" y2="7.8" x3="107.95" y3="3.9" textsize="1.778" layer="51" visible="yes"/>
+<dimension x1="95.25" y1="101.6" x2="101.6" y2="95.25" x3="104.775" y3="98.425" textsize="1.778" layer="51" dtype="vertical" visible="yes"/>
 <dimension x1="0" y1="95.25" x2="6.35" y2="101.6" x3="3.175" y3="107.95" textsize="1.778" layer="51" dtype="horizontal" visible="yes"/>
 <hole x="6.35" y="94.742" drill="3.175"/>
 <dimension x1="95.25" y1="101.6" x2="66.675" y2="101.6" x3="80.9625" y3="104.775" textsize="1.778" layer="51" dtype="horizontal" visible="yes"/>
 <dimension x1="6.35" y1="101.6" x2="34.925" y2="101.6" x3="20.6375" y3="104.775" textsize="1.778" layer="51" dtype="horizontal" visible="yes"/>
+<dimension x1="101.6" y1="101.6" x2="101.6" y2="98.425" x3="108.74375" y3="100.0125" textsize="1.778" layer="20" unit="inch" precision="4"/>
+<dimension x1="101.6" y1="101.6" x2="98.425" y2="101.6" x3="100.0125" y3="107.95" textsize="1.778" layer="20" unit="inch" precision="4"/>
 <hole x="98.425" y="98.425" drill="3.2639"/>
 </plain>
 <libraries>
