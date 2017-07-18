@@ -1301,13 +1301,13 @@ design rules under a new name.</description>
 </element>
 <element name="C_555_1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-2" value="10nF" x="4.7625" y="-32.54375"/>
 <element name="C_555_2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-2" value="100 uF" x="4.7625" y="-49.2125"/>
-<element name="U$3" library="MCP2561" package="SOIC8" value="MCP2561" x="-6.35" y="-53.975">
-<attribute name="AVAILABILITY" value="Warning" x="-6.35" y="-53.975" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="MCP2561 Series 5.5 V 8 Mbps High-Speed CAN Flexible Data Rate Transceiver-SOIC-8" x="-6.35" y="-53.975" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="Microchip" x="-6.35" y="-53.975" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="MCP2561FD-E/SN" x="-6.35" y="-53.975" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="SOIC-8 Microchip" x="-6.35" y="-53.975" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="0.91 USD" x="-6.35" y="-53.975" size="1.778" layer="27" display="off"/>
+<element name="MCP2561" library="MCP2561" package="SOIC8" value="MCP2561" x="78.58125" y="39.6875" rot="R180">
+<attribute name="AVAILABILITY" value="Warning" x="78.58125" y="39.6875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="MCP2561 Series 5.5 V 8 Mbps High-Speed CAN Flexible Data Rate Transceiver-SOIC-8" x="78.58125" y="39.6875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF" value="Microchip" x="78.58125" y="39.6875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MP" value="MCP2561FD-E/SN" x="78.58125" y="39.6875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PACKAGE" value="SOIC-8 Microchip" x="78.58125" y="39.6875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PRICE" value="0.91 USD" x="78.58125" y="39.6875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1439,7 +1439,7 @@ design rules under a new name.</description>
 <wire x1="58.19775" y1="73.81875" x2="53.18125" y2="79.0575" width="0.1524" layer="1"/>
 <wire x1="66.675" y1="73.81875" x2="66.675" y2="75.3075" width="0.1524" layer="16"/>
 <wire x1="66.675" y1="75.3075" x2="66.9925" y2="75.625" width="0.1524" layer="16"/>
-<contactref element="U$3" pad="P$3"/>
+<contactref element="MCP2561" pad="P$3"/>
 <contactref element="U$2" pad="14"/>
 <wire x1="77.343" y1="31.75" x2="85.09" y2="42.8625" width="0" layer="19" extent="16-16"/>
 <wire x1="94.63358125" y1="26.6023" x2="77.343" y2="31.75" width="0" layer="19" extent="1-16"/>
@@ -1453,7 +1453,7 @@ design rules under a new name.</description>
 <wire x1="38.1" y1="22.225" x2="43.4975" y2="22.8" width="0" layer="19" extent="1-16"/>
 <wire x1="40.9575" y1="45.025" x2="42.8625" y2="34.925" width="0" layer="19" extent="1-16"/>
 <wire x1="50.8" y1="44.7675" x2="40.9575" y2="45.025" width="0" layer="19" extent="16-16"/>
-<wire x1="-7.64" y1="-54.255" x2="31.9405" y2="3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="79.87125" y1="39.9675" x2="31.9405" y2="3.175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_BAT_BAL+">
 <contactref element="5V_CONVERTER" pad="23"/>
@@ -2058,8 +2058,13 @@ design rules under a new name.</description>
 <wire x1="29.4005" y1="13.5255" x2="29.4005" y2="7.96925" width="1.016" layer="16"/>
 <wire x1="29.4005" y1="7.96925" x2="29.36875" y2="7.9375" width="1.016" layer="16"/>
 <contactref element="C_555_1" pad="2"/>
-<contactref element="U$3" pad="P$2"/>
-<contactref element="U$3" pad="P$8"/>
+<contactref element="MCP2561" pad="P$2"/>
+<contactref element="MCP2561" pad="P$8"/>
+<wire x1="81.15125" y1="39.9675" x2="81.15125" y2="38.28875" width="0.1524" layer="1"/>
+<wire x1="80.9625" y1="38.1" x2="81.15125" y2="38.28875" width="0.1524" layer="1"/>
+<via x="80.9625" y="38.1" extent="1-16" drill="0.35"/>
+<wire x1="82.41125" y1="34.5775" x2="82.41125" y2="36.65125" width="0.1524" layer="1"/>
+<wire x1="82.41125" y1="36.65125" x2="80.9625" y2="38.1" width="0.1524" layer="1"/>
 <wire x1="77.875" y1="96.8375" x2="77.875" y2="100.0125" width="0" layer="19" extent="1-1"/>
 <wire x1="60.325" y1="92.075" x2="76.2" y2="96.8375" width="0" layer="19" extent="1-1"/>
 <wire x1="46.0375" y1="92.075" x2="58.65" y2="92.075" width="0" layer="19" extent="1-1"/>
@@ -2091,23 +2096,22 @@ design rules under a new name.</description>
 <wire x1="67.8815" y1="18.034" x2="63.5" y2="22.5425" width="0" layer="19" extent="1-1"/>
 <wire x1="69.85" y1="50.4825" x2="60.325" y2="49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="52.86375" y1="57.15" x2="50.8" y2="47.3075" width="0" layer="19" extent="1-1"/>
-<wire x1="83.185" y1="27.178" x2="67.8815" y2="18.034" width="0" layer="19" extent="16-16"/>
+<wire x1="81.15125" y1="39.9675" x2="69.85" y2="50.4825" width="0" layer="19" extent="1-1"/>
+<wire x1="83.185" y1="27.178" x2="82.41125" y2="34.5775" width="0" layer="19" extent="1-16"/>
 <wire x1="87.4395" y1="20.0025" x2="83.185" y2="27.178" width="0" layer="19" extent="16-16"/>
 <wire x1="6.0325" y1="-32.54375" x2="16.7005" y2="3.175" width="0" layer="19" extent="16-16"/>
-<wire x1="-10.18" y1="-48.865" x2="6.0325" y2="-32.54375" width="0" layer="19" extent="1-1"/>
-<wire x1="-8.92" y1="-54.255" x2="-10.18" y2="-48.865" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="U$2" pad="13"/>
-<wire x1="82.8675" y1="42.545" x2="82.55" y2="42.8625" width="0.1524" layer="1"/>
-<contactref element="U$3" pad="P$1"/>
-<wire x1="-10.18" y1="-54.265" x2="82.55" y2="42.8625" width="0" layer="19" extent="1-1"/>
+<wire x1="82.55" y1="42.8625" x2="82.8675" y2="42.545" width="0" layer="19" extent="1-16"/>
+<contactref element="MCP2561" pad="P$1"/>
+<wire x1="82.41125" y1="39.9775" x2="82.41125" y2="42.72375" width="0.1524" layer="1"/>
+<wire x1="82.41125" y1="42.72375" x2="82.55" y2="42.8625" width="0.1524" layer="1"/>
 </signal>
 <signal name="CANH_OUT">
 <contactref element="CANH_R" pad="2"/>
 <contactref element="U$4" pad="53"/>
-<wire x1="81.5975" y1="32.7025" x2="82.55" y2="31.75" width="0.1524" layer="1"/>
-<wire x1="82.55" y1="12.684715625" x2="82.55" y2="31.75" width="0.1524" layer="1"/>
+<wire x1="82.55" y1="31.75" x2="82.55" y2="12.684715625" width="0.1524" layer="1"/>
 <wire x1="82.55" y1="12.684715625" x2="82.55" y2="3.3655" width="0.1524" layer="1"/>
 <wire x1="82.55" y1="3.3655" x2="82.7405" y2="3.175" width="0.1524" layer="1"/>
 <wire x1="98.425" y1="12.7" x2="96.8375" y2="11.1125" width="0.1524" layer="1"/>
@@ -2119,9 +2123,10 @@ design rules under a new name.</description>
 <wire x1="92.075" y1="80.9625" x2="98.425" y2="74.6125" width="0.1524" layer="16"/>
 <wire x1="84.122215625" y1="11.1125" x2="82.55" y2="12.684715625" width="0.1524" layer="1"/>
 <wire x1="96.8375" y1="11.1125" x2="84.122215625" y2="11.1125" width="0.1524" layer="1"/>
-<contactref element="U$3" pad="P$7"/>
+<contactref element="MCP2561" pad="P$7"/>
+<wire x1="81.15125" y1="34.5775" x2="81.15125" y2="33.14875" width="0.1524" layer="1"/>
+<wire x1="81.15125" y1="33.14875" x2="82.55" y2="31.75" width="0.1524" layer="1"/>
 <wire x1="85.725" y1="100.0125" x2="84.9875" y2="100.0125" width="0" layer="19" extent="1-16"/>
-<wire x1="-8.92" y1="-48.865" x2="82.55" y2="3.3655" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_BAT_BAL-">
 <contactref element="5V_CONVERTER" pad="3"/>
@@ -2196,7 +2201,6 @@ design rules under a new name.</description>
 <signal name="CANL_OUT">
 <contactref element="CANL_R" pad="1"/>
 <contactref element="U$4" pad="51"/>
-<wire x1="80.3275" y1="32.385" x2="80.9625" y2="31.75" width="0.1524" layer="1"/>
 <wire x1="80.9625" y1="31.75" x2="80.9625" y2="12.7" width="0.1524" layer="1"/>
 <wire x1="80.9625" y1="12.7" x2="80.9625" y2="3.937" width="0.1524" layer="1"/>
 <wire x1="80.9625" y1="3.937" x2="80.2005" y2="3.175" width="0.1524" layer="1"/>
@@ -2208,9 +2212,10 @@ design rules under a new name.</description>
 <wire x1="96.8375" y1="13.49375" x2="96.04375" y2="12.7" width="0.1524" layer="16"/>
 <wire x1="96.04375" y1="12.7" x2="80.9625" y2="12.7" width="0.1524" layer="16"/>
 <via x="80.9625" y="12.7" extent="1-16" drill="0.35"/>
-<contactref element="U$3" pad="P$6"/>
+<contactref element="MCP2561" pad="P$6"/>
+<wire x1="79.87125" y1="34.5775" x2="79.87125" y2="32.84125" width="0.1524" layer="1"/>
+<wire x1="79.87125" y1="32.84125" x2="80.9625" y2="31.75" width="0.1524" layer="1"/>
 <wire x1="85.725" y1="96.8375" x2="84.9875" y2="96.8375" width="0" layer="19" extent="1-16"/>
-<wire x1="-7.64" y1="-48.865" x2="80.2005" y2="3.175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 </signal>
@@ -2331,9 +2336,10 @@ design rules under a new name.</description>
 <wire x1="-1.53125" y1="-10.31875" x2="67.8815" y2="25.654" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
-<contactref element="U$3" pad="P$4"/>
+<contactref element="MCP2561" pad="P$4"/>
 <contactref element="U$2" pad="12"/>
-<wire x1="-6.37" y1="-54.255" x2="80.01" y2="42.8625" width="0" layer="19" extent="1-1"/>
+<wire x1="78.60125" y1="39.9675" x2="78.60125" y2="41.45375" width="0.1524" layer="1"/>
+<wire x1="78.60125" y1="41.45375" x2="80.01" y2="42.8625" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <errors>
