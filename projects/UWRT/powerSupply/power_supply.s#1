@@ -5890,6 +5890,8 @@ Source: 008-0260-0_E.pdf</description>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="CANH_OUT_R" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="60"/>
 <part name="CANL_OUT_R" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="60"/>
+<part name="OSC1_C" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" value="1nF"/>
+<part name="OSC2_C" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" value="1 nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -5943,7 +5945,7 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="P+5" gate="VCC" x="320.04" y="299.72"/>
 <instance part="R7" gate="G$1" x="320.04" y="289.56" rot="R90"/>
 <instance part="U$2" gate="A" x="627.38" y="218.44" rot="MR0"/>
-<instance part="SUPPLY15" gate="GND" x="662.94" y="195.58"/>
+<instance part="SUPPLY15" gate="GND" x="662.94" y="187.96"/>
 <instance part="P+8" gate="VCC" x="685.8" y="238.76"/>
 <instance part="GND1" gate="1" x="320.04" y="162.56"/>
 <instance part="12V_OUT_TP" gate="G$1" x="459.74" y="289.56" rot="R180"/>
@@ -6002,11 +6004,13 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="SUPPLY23" gate="GND" x="228.6" y="246.38"/>
 <instance part="SUPPLY24" gate="GND" x="213.36" y="241.3"/>
 <instance part="MCP2561" gate="G$1" x="693.42" y="208.28"/>
-<instance part="Q1" gate="G$1" x="670.56" y="215.9" rot="R90"/>
+<instance part="Q1" gate="G$1" x="668.02" y="215.9" rot="R90"/>
 <instance part="CAN_SPLIT_C" gate="G$1" x="744.22" y="218.44" rot="R90"/>
 <instance part="SUPPLY25" gate="GND" x="759.46" y="218.44" rot="R90"/>
 <instance part="CANH_OUT_R" gate="G$1" x="731.52" y="223.52"/>
 <instance part="CANL_OUT_R" gate="G$1" x="731.52" y="210.82" rot="R180"/>
+<instance part="OSC1_C" gate="G$1" x="673.1" y="198.12" rot="R180"/>
+<instance part="OSC2_C" gate="G$1" x="683.26" y="198.12" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -6470,8 +6474,10 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="U$2" gate="A" pin="VSS"/>
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
 <wire x1="660.4" y1="205.74" x2="662.94" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="662.94" y1="205.74" x2="662.94" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="662.94" y1="205.74" x2="662.94" y2="195.58" width="0.1524" layer="91"/>
 <junction x="662.94" y="205.74"/>
+<wire x1="662.94" y1="195.58" x2="662.94" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="662.94" y1="193.04" x2="662.94" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="662.94" y1="205.74" x2="688.34" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="MCP2561" gate="G$1" pin="VSS"/>
 <wire x1="688.34" y1="205.74" x2="713.74" y2="205.74" width="0.1524" layer="91"/>
@@ -6479,6 +6485,13 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="MCP2561" gate="G$1" pin="STBY"/>
 <wire x1="688.34" y1="215.9" x2="688.34" y2="205.74" width="0.1524" layer="91"/>
 <junction x="688.34" y="205.74"/>
+<pinref part="OSC1_C" gate="G$1" pin="1"/>
+<wire x1="673.1" y1="195.58" x2="662.94" y2="195.58" width="0.1524" layer="91"/>
+<junction x="662.94" y="195.58"/>
+<pinref part="OSC2_C" gate="G$1" pin="1"/>
+<wire x1="683.26" y1="195.58" x2="683.26" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="683.26" y1="193.04" x2="662.94" y2="193.04" width="0.1524" layer="91"/>
+<junction x="662.94" y="193.04"/>
 </segment>
 <segment>
 <pinref part="3.3V_CS" gate="G$1" pin="IP-"/>
@@ -6868,6 +6881,29 @@ Source: 008-0260-0_E.pdf</description>
 <junction x="736.6" y="218.44"/>
 <pinref part="CANL_OUT_R" gate="G$1" pin="1"/>
 <wire x1="736.6" y1="210.82" x2="736.6" y2="218.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="OSC1" class="0">
+<segment>
+<pinref part="U$2" gate="A" pin="OSC1/CLKIN"/>
+<wire x1="660.4" y1="215.9" x2="660.4" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="2"/>
+<wire x1="660.4" y1="218.44" x2="668.02" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="OSC1_C" gate="G$1" pin="2"/>
+<wire x1="668.02" y1="218.44" x2="673.1" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="673.1" y1="218.44" x2="673.1" y2="203.2" width="0.1524" layer="91"/>
+<junction x="668.02" y="218.44"/>
+</segment>
+</net>
+<net name="OSC2" class="0">
+<segment>
+<pinref part="U$2" gate="A" pin="OSC2"/>
+<pinref part="Q1" gate="G$1" pin="1"/>
+<wire x1="660.4" y1="213.36" x2="668.02" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="OSC2_C" gate="G$1" pin="2"/>
+<wire x1="668.02" y1="213.36" x2="683.26" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="683.26" y1="213.36" x2="683.26" y2="203.2" width="0.1524" layer="91"/>
+<junction x="668.02" y="213.36"/>
 </segment>
 </net>
 </nets>

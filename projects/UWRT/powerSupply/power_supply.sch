@@ -5828,7 +5828,7 @@ Source: 008-0260-0_E.pdf</description>
 <part name="U$2" library="MCP25020-I_P" deviceset="MCP25020-I/P" device=""/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="V_BAT_BAL-" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="12V_OUT_TP" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27"/>
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27"/>
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27"/>
@@ -5853,7 +5853,7 @@ Source: 008-0260-0_E.pdf</description>
 <part name="TEMP2_T" library="varistor" library_urn="urn:adsk.eagle:library:410" deviceset="THERMISTOR" device="-5"/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="U$5" library="molex" deviceset="39-30-1020" device=""/>
+<part name="POWER_IN" library="molex" deviceset="39-30-1020" device=""/>
 <part name="U$6" library="molex" deviceset="39-30-1040" device=""/>
 <part name="U$7" library="molex" deviceset="70555-0003" device=""/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -5947,7 +5947,7 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="U$2" gate="A" x="627.38" y="218.44" rot="MR0"/>
 <instance part="SUPPLY15" gate="GND" x="662.94" y="187.96"/>
 <instance part="P+8" gate="VCC" x="685.8" y="238.76"/>
-<instance part="GND1" gate="1" x="320.04" y="162.56"/>
+<instance part="V_BAT_BAL-" gate="1" x="320.04" y="162.56"/>
 <instance part="12V_OUT_TP" gate="G$1" x="459.74" y="289.56" rot="R180"/>
 <instance part="TP2" gate="G$1" x="464.82" y="236.22" rot="R180"/>
 <instance part="TP3" gate="G$1" x="472.44" y="276.86" rot="R180"/>
@@ -5972,7 +5972,7 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="TEMP2_T" gate="G$1" x="622.3" y="160.02" rot="R90"/>
 <instance part="P+9" gate="VCC" x="581.66" y="185.42"/>
 <instance part="P+10" gate="VCC" x="622.3" y="185.42"/>
-<instance part="U$5" gate="G$1" x="297.18" y="223.52" rot="R90"/>
+<instance part="POWER_IN" gate="G$1" x="297.18" y="223.52" rot="R90"/>
 <instance part="U$6" gate="G$1" x="487.68" y="314.96" rot="MR0"/>
 <instance part="U$7" gate="G$1" x="447.04" y="116.84"/>
 <instance part="SUPPLY17" gate="GND" x="454.66" y="73.66"/>
@@ -6019,14 +6019,12 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <pinref part="5V_CONVERTER" gate="G$1" pin="+VIN"/>
 <wire x1="322.58" y1="223.52" x2="391.16" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="3.3V_CONVERTER" gate="G$1" pin="+VIN"/>
-<wire x1="391.16" y1="170.18" x2="322.58" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="170.18" x2="322.58" y2="223.52" width="0.1524" layer="91"/>
 <junction x="322.58" y="223.52"/>
 <pinref part="U$1" gate="G$1" pin="VIN(+)"/>
 <wire x1="353.06" y1="284.48" x2="322.58" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="284.48" x2="322.58" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="2"/>
+<pinref part="POWER_IN" gate="G$1" pin="2"/>
 <wire x1="322.58" y1="228.6" x2="322.58" y2="223.52" width="0.1524" layer="91"/>
 <junction x="322.58" y="228.6"/>
 <wire x1="297.18" y1="228.6" x2="309.88" y2="228.6" width="0.1524" layer="91"/>
@@ -6036,6 +6034,8 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="VBATIN_R" gate="G$1" pin="2"/>
 <wire x1="309.88" y1="236.22" x2="289.56" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="236.22" x2="289.56" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="3.3V_CONVERTER" gate="G$1" pin="+VIN"/>
+<wire x1="322.58" y1="170.18" x2="391.16" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V_OUT" class="1">
@@ -6664,10 +6664,10 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="320.04" y1="218.44" x2="320.04" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="264.16" x2="320.04" y2="264.16" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="264.16" x2="320.04" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="V_BAT_BAL-" gate="1" pin="GND"/>
 <wire x1="320.04" y1="165.1" x2="320.04" y2="167.64" width="0.1524" layer="91"/>
 <junction x="320.04" y="167.64"/>
-<pinref part="U$5" gate="G$1" pin="1"/>
+<pinref part="POWER_IN" gate="G$1" pin="1"/>
 <wire x1="297.18" y1="218.44" x2="309.88" y2="218.44" width="0.1524" layer="91"/>
 <junction x="320.04" y="218.44"/>
 <pinref part="VBAT_IN_LED" gate="G$1" pin="C"/>
@@ -6910,12 +6910,14 @@ Source: 008-0260-0_E.pdf</description>
 </sheet>
 </sheets>
 <errors>
+<approved hash="102,1,320.04,165.1,GND,V_BAT_BAL-,,,,"/>
+<approved hash="201,1,320.04,165.1,GND,GND\, V_BAT_BAL-,,,,"/>
 <approved hash="202,1,391.16,228.6,5V_CONVERTER,CONTROL,,,,"/>
 <approved hash="202,1,391.16,175.26,3.3V_CONVERTER,CONTROL,,,,"/>
 <approved hash="202,1,238.76,276.86,U1,SER,,,,"/>
 <approved hash="202,1,238.76,271.78,U1,~OE,,,,"/>
 <approved hash="202,1,238.76,266.7,U1,~SRCLR,,,,"/>
-<approved hash="202,1,678.18,215.9,U$3,RS,,,,"/>
+<approved hash="202,1,238.76,259.08,U1,RCLK,,,,"/>
 </errors>
 </schematic>
 </drawing>
