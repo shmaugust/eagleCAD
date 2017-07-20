@@ -11553,6 +11553,95 @@ Source: 008-0260-0_E.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SFH610">
+<packages>
+<package name="DIL04">
+<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
+<wire x1="2.54" y1="2.921" x2="-2.54" y2="2.921" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-2.921" x2="2.54" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="2.921" x2="2.54" y2="-2.921" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="2.921" x2="-2.54" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-2.921" x2="-2.54" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.016" x2="-2.54" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
+<text x="4.191" y="-2.921" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<text x="-2.921" y="-2.667" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<pad name="1" x="-1.27" y="-3.81" drill="0.8128" shape="offset" rot="R270"/>
+<pad name="2" x="1.27" y="-3.81" drill="0.8128" shape="offset" rot="R270"/>
+<pad name="3" x="1.27" y="3.81" drill="0.8128" shape="offset" rot="R90"/>
+<pad name="4" x="-1.27" y="3.81" drill="0.8128" shape="offset" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="OK">
+<wire x1="-2.413" y1="-1.143" x2="-1.016" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="0.254" x2="-1.905" y2="-0.127" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-0.127" x2="-1.397" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.397" y1="-0.635" x2="-1.016" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="-1.143" y1="1.397" x2="-2.032" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="1.016" x2="-1.524" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="0.508" x2="-1.143" y2="1.397" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.143" y2="1.397" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="1.27" x2="-4.445" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="-1.27" x2="-5.715" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="-1.27" x2="-5.715" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="1.27" x2="-4.445" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.27" x2="-4.445" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.27" x2="-5.715" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-6.985" y1="5.08" x2="4.445" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.985" y1="-5.08" x2="4.445" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-4.445" y1="2.54" x2="-4.445" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-6.985" y1="5.08" x2="-6.985" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-4.445" y1="-1.27" x2="-4.445" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="5.08" x2="4.445" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-4.445" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-4.445" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="2.286" y2="-2.286" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.016" x2="2.286" y2="-2.286" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-2.286" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-2.286" x2="1.016" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.778" x2="1.778" y2="-1.016" width="0.1524" layer="94"/>
+<text x="-6.985" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.985" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.381" y1="-2.54" x2="0.381" y2="2.54" layer="94"/>
+<pin name="A" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="C" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="EMIT" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="COL" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SFH610" prefix="OK">
+<description>&lt;b&gt;SIEMENS OPTO COUPLER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="OK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL04">
+<connects>
+<connect gate="A" pin="A" pad="1"/>
+<connect gate="A" pin="C" pad="2"/>
+<connect gate="A" pin="COL" pad="3"/>
+<connect gate="A" pin="EMIT" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Good"/>
+<attribute name="DESCRIPTION" value="SFH610A Series Single Channel 70 V 5300 Vrms Phototransistor Optocoupler - DIP-4"/>
+<attribute name="MF" value="Vishay"/>
+<attribute name="MP" value="SFH610A-2"/>
+<attribute name="PACKAGE" value="DIP-4 Vishay"/>
+<attribute name="PRICE" value="0.51 USD"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11615,20 +11704,20 @@ Source: 008-0260-0_E.pdf</description>
 <part name="PWM_R6" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="330"/>
 <part name="PWM_LED7" library="SparkFun-LED" deviceset="LED" device="1206"/>
 <part name="PWM_R7" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="330"/>
-<part name="PWM" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
-<part name="PWM1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
-<part name="PWM2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
-<part name="PWM3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
-<part name="PWM4" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
-<part name="PWM5" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
-<part name="PWM6" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
-<part name="PWM7" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
+<part name="P0" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
+<part name="P1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
+<part name="P2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
+<part name="P3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
+<part name="P4" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
+<part name="P5" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
+<part name="P6" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
+<part name="P7" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
 <part name="PWM_LED8" library="SparkFun-LED" deviceset="LED" device="1206"/>
 <part name="PWM_R8" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="330"/>
 <part name="PWM_LED9" library="SparkFun-LED" deviceset="LED" device="1206"/>
 <part name="PWM_R9" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="330"/>
-<part name="PWM8" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
-<part name="PWM9" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
+<part name="P8" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
+<part name="P9" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device=""/>
 <part name="DEPTH_SENSOR" library="con-hirose-df13" deviceset="DF13-4P-1.25" device="DSA"/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" value="100nF"/>
@@ -11642,7 +11731,6 @@ Source: 008-0260-0_E.pdf</description>
 <part name="SWITCHES" library="molex" deviceset="39-30-1040" device=""/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="RESET_SWITCH" library="switch-omron" deviceset="10-XX" device=""/>
-<part name="GND_ESC" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="MINI_USB_B" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="USB_MINI-B" device="_SMT"/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -11658,11 +11746,61 @@ Source: 008-0260-0_E.pdf</description>
 <part name="Q1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="HC49S"/>
 <part name="OSC1_C" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" value="1nF"/>
 <part name="OSC2_C" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" value="1 nF"/>
+<part name="OPI_PWM0" library="SFH610" deviceset="SFH610" device=""/>
+<part name="PWM_IN0" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="330"/>
+<part name="BIAS_R" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="1K"/>
+<part name="GND_ESC1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="OPI_PWM1" library="SFH610" deviceset="SFH610" device=""/>
+<part name="PWM_IN1" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="330"/>
+<part name="BIAS_R1" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="1K"/>
+<part name="GND_ESC2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="OPI_PWM2" library="SFH610" deviceset="SFH610" device=""/>
+<part name="PWM_IN2" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="330"/>
+<part name="BIAS_R2" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="1K"/>
+<part name="GND_ESC3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="OPI_PWM3" library="SFH610" deviceset="SFH610" device=""/>
+<part name="PWM_IN3" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="330"/>
+<part name="BIAS_R3" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="1K"/>
+<part name="GND_ESC4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="OPI_PWM4" library="SFH610" deviceset="SFH610" device=""/>
+<part name="PWM_IN4" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="330"/>
+<part name="BIAS_R4" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="1K"/>
+<part name="GND_ESC5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="OPI_PWM5" library="SFH610" deviceset="SFH610" device=""/>
+<part name="PWM_IN5" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="330"/>
+<part name="BIAS_R5" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="1K"/>
+<part name="GND_ESC6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="OPI_PWM6" library="SFH610" deviceset="SFH610" device=""/>
+<part name="PWM_IN6" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="330"/>
+<part name="BIAS_R6" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="1K"/>
+<part name="GND_ESC7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="OPI_PWM7" library="SFH610" deviceset="SFH610" device=""/>
+<part name="PWM_IN7" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="330"/>
+<part name="BIAS_R7" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="1K"/>
+<part name="GND_ESC8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="OPI_PWM8" library="SFH610" deviceset="SFH610" device=""/>
+<part name="PWM_IN8" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="330"/>
+<part name="BIAS_R8" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="1K"/>
+<part name="GND_ESC9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="OPI_PWM9" library="SFH610" deviceset="SFH610" device=""/>
+<part name="PWM_IN9" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="330"/>
+<part name="BIAS_R9" library="SparkFun-Resistors" deviceset="0OHM" device="-0603-1/10W-5%" value="1K"/>
+<part name="GND_ESC10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="619.76" y="332.74" size="1.778" layer="91">PWM output goes to Pin 3, GND to pin 1</text>
+<text x="502.92" y="403.86" size="1.778" layer="91">PWM output goes to Pin 3, GND to pin 1</text>
 </plain>
 <instances>
 <instance part="U$7" gate="G$1" x="447.04" y="116.84"/>
@@ -11693,36 +11831,36 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="SUPPLY5" gate="+5V" x="624.84" y="200.66"/>
 <instance part="+3V3" gate="G$1" x="477.52" y="137.16"/>
 <instance part="SUPPLY6" gate="GND" x="607.06" y="154.94"/>
-<instance part="PWM_LED" gate="G$1" x="505.46" y="332.74" rot="R180"/>
-<instance part="PWM_R" gate="G$1" x="505.46" y="322.58" rot="R90"/>
-<instance part="PWM_LED1" gate="G$1" x="515.62" y="332.74" rot="R180"/>
-<instance part="PWM_R1" gate="G$1" x="515.62" y="322.58" rot="R90"/>
-<instance part="PWM_LED2" gate="G$1" x="525.78" y="332.74" rot="R180"/>
-<instance part="PWM_R2" gate="G$1" x="525.78" y="322.58" rot="R90"/>
-<instance part="PWM_LED3" gate="G$1" x="535.94" y="332.74" rot="R180"/>
-<instance part="PWM_R3" gate="G$1" x="535.94" y="322.58" rot="R90"/>
-<instance part="PWM_LED4" gate="G$1" x="546.1" y="332.74" rot="R180"/>
-<instance part="PWM_R4" gate="G$1" x="546.1" y="322.58" rot="R90"/>
-<instance part="PWM_LED5" gate="G$1" x="556.26" y="332.74" rot="R180"/>
-<instance part="PWM_R5" gate="G$1" x="556.26" y="322.58" rot="R90"/>
-<instance part="PWM_LED6" gate="G$1" x="566.42" y="332.74" rot="R180"/>
-<instance part="PWM_R6" gate="G$1" x="566.42" y="322.58" rot="R90"/>
-<instance part="PWM_LED7" gate="G$1" x="576.58" y="332.74" rot="R180"/>
-<instance part="PWM_R7" gate="G$1" x="576.58" y="322.58" rot="R90"/>
-<instance part="PWM" gate="G$1" x="614.68" y="327.66" rot="MR270"/>
-<instance part="PWM1" gate="G$1" x="627.38" y="327.66" rot="MR270"/>
-<instance part="PWM2" gate="G$1" x="640.08" y="327.66" rot="MR270"/>
-<instance part="PWM3" gate="G$1" x="652.78" y="327.66" rot="MR270"/>
-<instance part="PWM4" gate="G$1" x="665.48" y="327.66" rot="MR270"/>
-<instance part="PWM5" gate="G$1" x="678.18" y="327.66" rot="MR270"/>
-<instance part="PWM6" gate="G$1" x="690.88" y="327.66" rot="MR270"/>
-<instance part="PWM7" gate="G$1" x="703.58" y="327.66" rot="MR270"/>
-<instance part="PWM_LED8" gate="G$1" x="586.74" y="332.74" rot="R180"/>
-<instance part="PWM_R8" gate="G$1" x="586.74" y="322.58" rot="R90"/>
-<instance part="PWM_LED9" gate="G$1" x="596.9" y="332.74" rot="R180"/>
-<instance part="PWM_R9" gate="G$1" x="596.9" y="322.58" rot="R90"/>
-<instance part="PWM8" gate="G$1" x="716.28" y="327.66" rot="MR270"/>
-<instance part="PWM9" gate="G$1" x="728.98" y="327.66" rot="MR270"/>
+<instance part="PWM_LED" gate="G$1" x="505.46" y="342.9" rot="R90"/>
+<instance part="PWM_R" gate="G$1" x="500.38" y="337.82" rot="R90"/>
+<instance part="PWM_LED1" gate="G$1" x="548.64" y="347.98" rot="R90"/>
+<instance part="PWM_R1" gate="G$1" x="541.02" y="332.74" rot="R90"/>
+<instance part="PWM_LED2" gate="G$1" x="594.36" y="350.52" rot="R90"/>
+<instance part="PWM_R2" gate="G$1" x="586.74" y="337.82" rot="R90"/>
+<instance part="PWM_LED3" gate="G$1" x="637.54" y="347.98" rot="R90"/>
+<instance part="PWM_R3" gate="G$1" x="629.92" y="335.28" rot="R90"/>
+<instance part="PWM_LED4" gate="G$1" x="675.64" y="350.52" rot="R90"/>
+<instance part="PWM_R4" gate="G$1" x="668.02" y="335.28" rot="R90"/>
+<instance part="PWM_LED5" gate="G$1" x="716.28" y="347.98" rot="R90"/>
+<instance part="PWM_R5" gate="G$1" x="708.66" y="332.74" rot="R90"/>
+<instance part="PWM_LED6" gate="G$1" x="756.92" y="350.52" rot="R90"/>
+<instance part="PWM_R6" gate="G$1" x="749.3" y="335.28" rot="R90"/>
+<instance part="PWM_LED7" gate="G$1" x="797.56" y="350.52" rot="R90"/>
+<instance part="PWM_R7" gate="G$1" x="789.94" y="335.28" rot="R90"/>
+<instance part="P0" gate="G$1" x="508" y="337.82" rot="MR270"/>
+<instance part="P1" gate="G$1" x="548.64" y="337.82" rot="MR270"/>
+<instance part="P2" gate="G$1" x="594.36" y="340.36" rot="MR270"/>
+<instance part="P3" gate="G$1" x="637.54" y="340.36" rot="MR270"/>
+<instance part="P4" gate="G$1" x="675.64" y="345.44" rot="MR270"/>
+<instance part="P5" gate="G$1" x="716.28" y="342.9" rot="MR270"/>
+<instance part="P6" gate="G$1" x="756.92" y="345.44" rot="MR270"/>
+<instance part="P7" gate="G$1" x="797.56" y="345.44" rot="MR270"/>
+<instance part="PWM_LED8" gate="G$1" x="840.74" y="350.52" rot="R90"/>
+<instance part="PWM_R8" gate="G$1" x="833.12" y="335.28" rot="R90"/>
+<instance part="PWM_LED9" gate="G$1" x="881.38" y="347.98" rot="R90"/>
+<instance part="PWM_R9" gate="G$1" x="873.76" y="332.74" rot="R90"/>
+<instance part="P8" gate="G$1" x="840.74" y="345.44" rot="MR270"/>
+<instance part="P9" gate="G$1" x="881.38" y="342.9" rot="MR270"/>
 <instance part="DEPTH_SENSOR" gate="G$1" x="447.04" y="312.42" rot="R180"/>
 <instance part="SUPPLY7" gate="GND" x="454.66" y="304.8"/>
 <instance part="C10" gate="G$1" x="459.74" y="190.5"/>
@@ -11736,7 +11874,6 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="SWITCHES" gate="G$1" x="622.3" y="218.44" rot="MR180"/>
 <instance part="+3V4" gate="G$1" x="642.62" y="223.52"/>
 <instance part="RESET_SWITCH" gate="1" x="408.94" y="236.22" rot="MR270"/>
-<instance part="GND_ESC" gate="1" x="731.52" y="292.1"/>
 <instance part="+3V6" gate="G$1" x="670.56" y="269.24"/>
 <instance part="MINI_USB_B" gate="G$1" x="614.68" y="246.38"/>
 <instance part="+3V7" gate="G$1" x="607.06" y="259.08"/>
@@ -11752,6 +11889,56 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="Q1" gate="G$1" x="419.1" y="259.08" rot="R270"/>
 <instance part="OSC1_C" gate="G$1" x="396.24" y="254" rot="R180"/>
 <instance part="OSC2_C" gate="G$1" x="406.4" y="254" rot="R180"/>
+<instance part="OPI_PWM0" gate="A" x="508" y="312.42" rot="R90"/>
+<instance part="PWM_IN0" gate="G$1" x="505.46" y="294.64" rot="R90"/>
+<instance part="BIAS_R" gate="G$1" x="492.76" y="320.04" rot="R180"/>
+<instance part="GND_ESC1" gate="1" x="518.16" y="317.5"/>
+<instance part="SUPPLY10" gate="GND" x="510.54" y="297.18"/>
+<instance part="OPI_PWM1" gate="A" x="548.64" y="317.5" rot="R90"/>
+<instance part="PWM_IN1" gate="G$1" x="546.1" y="299.72" rot="R90"/>
+<instance part="BIAS_R1" gate="G$1" x="533.4" y="325.12" rot="R180"/>
+<instance part="GND_ESC2" gate="1" x="558.8" y="322.58"/>
+<instance part="SUPPLY11" gate="GND" x="551.18" y="302.26"/>
+<instance part="OPI_PWM2" gate="A" x="594.36" y="320.04" rot="R90"/>
+<instance part="PWM_IN2" gate="G$1" x="591.82" y="302.26" rot="R90"/>
+<instance part="BIAS_R2" gate="G$1" x="579.12" y="327.66" rot="R180"/>
+<instance part="GND_ESC3" gate="1" x="604.52" y="325.12"/>
+<instance part="SUPPLY12" gate="GND" x="596.9" y="304.8"/>
+<instance part="OPI_PWM3" gate="A" x="637.54" y="320.04" rot="R90"/>
+<instance part="PWM_IN3" gate="G$1" x="635" y="302.26" rot="R90"/>
+<instance part="BIAS_R3" gate="G$1" x="622.3" y="327.66" rot="R180"/>
+<instance part="GND_ESC4" gate="1" x="647.7" y="325.12"/>
+<instance part="SUPPLY13" gate="GND" x="640.08" y="304.8"/>
+<instance part="OPI_PWM4" gate="A" x="675.64" y="320.04" rot="R90"/>
+<instance part="PWM_IN4" gate="G$1" x="673.1" y="302.26" rot="R90"/>
+<instance part="BIAS_R4" gate="G$1" x="660.4" y="327.66" rot="R180"/>
+<instance part="GND_ESC5" gate="1" x="685.8" y="325.12"/>
+<instance part="SUPPLY14" gate="GND" x="678.18" y="304.8"/>
+<instance part="OPI_PWM5" gate="A" x="716.28" y="317.5" rot="R90"/>
+<instance part="PWM_IN5" gate="G$1" x="713.74" y="299.72" rot="R90"/>
+<instance part="BIAS_R5" gate="G$1" x="701.04" y="325.12" rot="R180"/>
+<instance part="GND_ESC6" gate="1" x="726.44" y="322.58"/>
+<instance part="SUPPLY16" gate="GND" x="718.82" y="302.26"/>
+<instance part="OPI_PWM6" gate="A" x="756.92" y="320.04" rot="R90"/>
+<instance part="PWM_IN6" gate="G$1" x="754.38" y="302.26" rot="R90"/>
+<instance part="BIAS_R6" gate="G$1" x="741.68" y="327.66" rot="R180"/>
+<instance part="GND_ESC7" gate="1" x="767.08" y="325.12"/>
+<instance part="SUPPLY18" gate="GND" x="759.46" y="304.8"/>
+<instance part="OPI_PWM7" gate="A" x="797.56" y="320.04" rot="R90"/>
+<instance part="PWM_IN7" gate="G$1" x="795.02" y="302.26" rot="R90"/>
+<instance part="BIAS_R7" gate="G$1" x="782.32" y="327.66" rot="R180"/>
+<instance part="GND_ESC8" gate="1" x="807.72" y="325.12"/>
+<instance part="SUPPLY20" gate="GND" x="800.1" y="304.8"/>
+<instance part="OPI_PWM8" gate="A" x="840.74" y="320.04" rot="R90"/>
+<instance part="PWM_IN8" gate="G$1" x="838.2" y="302.26" rot="R90"/>
+<instance part="BIAS_R8" gate="G$1" x="825.5" y="327.66" rot="R180"/>
+<instance part="GND_ESC9" gate="1" x="850.9" y="325.12"/>
+<instance part="SUPPLY21" gate="GND" x="843.28" y="304.8"/>
+<instance part="OPI_PWM9" gate="A" x="881.38" y="317.5" rot="R90"/>
+<instance part="PWM_IN9" gate="G$1" x="878.84" y="299.72" rot="R90"/>
+<instance part="BIAS_R9" gate="G$1" x="866.14" y="325.12" rot="R180"/>
+<instance part="GND_ESC10" gate="1" x="891.54" y="322.58"/>
+<instance part="SUPPLY22" gate="GND" x="883.92" y="302.26"/>
 </instances>
 <busses>
 </busses>
@@ -11763,6 +11950,46 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="U$7" gate="G$1" pin="4"/>
 <wire x1="449.58" y1="127" x2="495.3" y2="127" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="E" pin="12V+"/>
+</segment>
+<segment>
+<pinref part="BIAS_R" gate="G$1" pin="2"/>
+<wire x1="487.68" y1="320.04" x2="485.14" y2="320.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BIAS_R2" gate="G$1" pin="2"/>
+<wire x1="574.04" y1="327.66" x2="571.5" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BIAS_R1" gate="G$1" pin="2"/>
+<wire x1="528.32" y1="325.12" x2="525.78" y2="325.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BIAS_R3" gate="G$1" pin="2"/>
+<wire x1="617.22" y1="327.66" x2="614.68" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BIAS_R4" gate="G$1" pin="2"/>
+<wire x1="655.32" y1="327.66" x2="652.78" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BIAS_R5" gate="G$1" pin="2"/>
+<wire x1="695.96" y1="325.12" x2="693.42" y2="325.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BIAS_R6" gate="G$1" pin="2"/>
+<wire x1="736.6" y1="327.66" x2="734.06" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BIAS_R7" gate="G$1" pin="2"/>
+<wire x1="777.24" y1="327.66" x2="774.7" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BIAS_R8" gate="G$1" pin="2"/>
+<wire x1="820.42" y1="327.66" x2="817.88" y2="327.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BIAS_R9" gate="G$1" pin="2"/>
+<wire x1="861.06" y1="325.12" x2="858.52" y2="325.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="3">
@@ -11793,8 +12020,8 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
 <pinref part="STM32F405" gate="G$1" pin="12"/>
 <wire x1="485.14" y1="170.18" x2="485.14" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="485.14" y1="182.88" x2="485.14" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="485.14" y1="203.2" x2="485.14" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="485.14" y1="182.88" x2="485.14" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="485.14" y1="195.58" x2="485.14" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="485.14" y1="226.06" x2="497.84" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="STM32F405" gate="G$1" pin="63"/>
 <wire x1="508" y1="261.62" x2="508" y2="264.16" width="0.1524" layer="91"/>
@@ -11802,9 +12029,9 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="485.14" y1="264.16" x2="485.14" y2="226.06" width="0.1524" layer="91"/>
 <junction x="485.14" y="226.06"/>
 <pinref part="STM32F405" gate="G$1" pin="18"/>
-<wire x1="508" y1="208.28" x2="508" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="508" y1="203.2" x2="485.14" y2="203.2" width="0.1524" layer="91"/>
-<junction x="485.14" y="203.2"/>
+<wire x1="508" y1="208.28" x2="508" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="508" y1="195.58" x2="485.14" y2="195.58" width="0.1524" layer="91"/>
+<junction x="485.14" y="195.58"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="469.9" y1="185.42" x2="469.9" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="469.9" y1="182.88" x2="480.06" y2="182.88" width="0.1524" layer="91"/>
@@ -11947,15 +12174,56 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="MICROSD" gate="1" pin="GND"/>
 <wire x1="419.1" y1="144.78" x2="419.1" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="419.1" y1="142.24" x2="421.64" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="MICROSD" gate="1" pin="CD2"/>
-<wire x1="403.86" y1="149.86" x2="403.86" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="403.86" y1="142.24" x2="419.1" y2="142.24" width="0.1524" layer="91"/>
-<junction x="419.1" y="142.24"/>
-<pinref part="MICROSD" gate="1" pin="CD1"/>
-<wire x1="403.86" y1="154.94" x2="401.32" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="401.32" y1="154.94" x2="401.32" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="401.32" y1="142.24" x2="403.86" y2="142.24" width="0.1524" layer="91"/>
-<junction x="403.86" y="142.24"/>
+</segment>
+<segment>
+<pinref part="SUPPLY10" gate="GND" pin="GND"/>
+<pinref part="OPI_PWM0" gate="A" pin="C"/>
+<wire x1="510.54" y1="299.72" x2="510.54" y2="302.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY11" gate="GND" pin="GND"/>
+<pinref part="OPI_PWM1" gate="A" pin="C"/>
+<wire x1="551.18" y1="304.8" x2="551.18" y2="307.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY12" gate="GND" pin="GND"/>
+<pinref part="OPI_PWM2" gate="A" pin="C"/>
+<wire x1="596.9" y1="307.34" x2="596.9" y2="309.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY13" gate="GND" pin="GND"/>
+<pinref part="OPI_PWM3" gate="A" pin="C"/>
+<wire x1="640.08" y1="307.34" x2="640.08" y2="309.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY14" gate="GND" pin="GND"/>
+<pinref part="OPI_PWM4" gate="A" pin="C"/>
+<wire x1="678.18" y1="307.34" x2="678.18" y2="309.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY16" gate="GND" pin="GND"/>
+<pinref part="OPI_PWM5" gate="A" pin="C"/>
+<wire x1="718.82" y1="304.8" x2="718.82" y2="307.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY18" gate="GND" pin="GND"/>
+<pinref part="OPI_PWM6" gate="A" pin="C"/>
+<wire x1="759.46" y1="307.34" x2="759.46" y2="309.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY20" gate="GND" pin="GND"/>
+<pinref part="OPI_PWM7" gate="A" pin="C"/>
+<wire x1="800.1" y1="307.34" x2="800.1" y2="309.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY21" gate="GND" pin="GND"/>
+<pinref part="OPI_PWM8" gate="A" pin="C"/>
+<wire x1="843.28" y1="307.34" x2="843.28" y2="309.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY22" gate="GND" pin="GND"/>
+<pinref part="OPI_PWM9" gate="A" pin="C"/>
+<wire x1="883.92" y1="304.8" x2="883.92" y2="307.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH_OUT" class="0">
@@ -12061,13 +12329,13 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="505.46" y1="261.62" x2="505.46" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="505.46" y1="266.7" x2="469.9" y2="266.7" width="0.1524" layer="91"/>
 <pinref part="STM32F405" gate="G$1" pin="19"/>
-<wire x1="510.54" y1="208.28" x2="510.54" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="510.54" y1="205.74" x2="480.06" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="480.06" y1="205.74" x2="469.9" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="469.9" y1="205.74" x2="469.9" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="208.28" x2="510.54" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="198.12" x2="480.06" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="480.06" y1="198.12" x2="469.9" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="469.9" y1="198.12" x2="469.9" y2="223.52" width="0.1524" layer="91"/>
 <junction x="469.9" y="223.52"/>
 <junction x="469.9" y="266.7"/>
-<junction x="469.9" y="205.74"/>
+<junction x="469.9" y="198.12"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="485.14" y1="299.72" x2="485.14" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="485.14" y1="304.8" x2="469.9" y2="304.8" width="0.1524" layer="91"/>
@@ -12077,7 +12345,7 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="492.76" y1="304.8" x2="485.14" y2="304.8" width="0.1524" layer="91"/>
 <junction x="485.14" y="304.8"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="469.9" y1="205.74" x2="469.9" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="469.9" y1="198.12" x2="469.9" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="DEPTH_SENSOR" gate="G$1" pin="1"/>
 <wire x1="452.12" y1="309.88" x2="469.9" y2="309.88" width="0.1524" layer="91"/>
 <junction x="469.9" y="309.88"/>
@@ -12097,8 +12365,8 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="429.26" y1="193.04" x2="429.26" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="429.26" y1="266.7" x2="469.9" y2="266.7" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="480.06" y1="193.04" x2="480.06" y2="205.74" width="0.1524" layer="91"/>
-<junction x="480.06" y="205.74"/>
+<wire x1="480.06" y1="193.04" x2="480.06" y2="198.12" width="0.1524" layer="91"/>
+<junction x="480.06" y="198.12"/>
 </segment>
 <segment>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
@@ -12189,238 +12457,97 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <pinref part="PWM_R" gate="G$1" pin="2"/>
 <pinref part="PWM_LED" gate="G$1" pin="A"/>
-<wire x1="505.46" y1="327.66" x2="505.46" y2="330.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="PWM_R1" gate="G$1" pin="2"/>
-<pinref part="PWM_LED1" gate="G$1" pin="A"/>
-<wire x1="515.62" y1="327.66" x2="515.62" y2="330.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="PWM_R2" gate="G$1" pin="2"/>
-<pinref part="PWM_LED2" gate="G$1" pin="A"/>
-<wire x1="525.78" y1="327.66" x2="525.78" y2="330.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="PWM_R3" gate="G$1" pin="2"/>
-<pinref part="PWM_LED3" gate="G$1" pin="A"/>
-<wire x1="535.94" y1="327.66" x2="535.94" y2="330.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="PWM_R4" gate="G$1" pin="2"/>
-<pinref part="PWM_LED4" gate="G$1" pin="A"/>
-<wire x1="546.1" y1="327.66" x2="546.1" y2="330.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="PWM_R5" gate="G$1" pin="2"/>
-<pinref part="PWM_LED5" gate="G$1" pin="A"/>
-<wire x1="556.26" y1="327.66" x2="556.26" y2="330.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="PWM_R6" gate="G$1" pin="2"/>
-<pinref part="PWM_LED6" gate="G$1" pin="A"/>
-<wire x1="566.42" y1="327.66" x2="566.42" y2="330.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="PWM_R7" gate="G$1" pin="2"/>
-<pinref part="PWM_LED7" gate="G$1" pin="A"/>
-<wire x1="576.58" y1="327.66" x2="576.58" y2="330.2" width="0.1524" layer="91"/>
+<wire x1="502.92" y1="342.9" x2="500.38" y2="342.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM0_OUT" class="0">
 <segment>
 <pinref part="STM32F405" gate="G$1" pin="30"/>
 <wire x1="538.48" y1="208.28" x2="538.48" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="538.48" y1="203.2" x2="563.88" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="563.88" y1="203.2" x2="563.88" y2="269.24" width="0.1524" layer="91"/>
-<wire x1="563.88" y1="269.24" x2="523.24" y2="269.24" width="0.1524" layer="91"/>
-<wire x1="523.24" y1="269.24" x2="523.24" y2="284.48" width="0.1524" layer="91"/>
-<pinref part="PWM_R" gate="G$1" pin="1"/>
-<wire x1="523.24" y1="284.48" x2="505.46" y2="284.48" width="0.1524" layer="91"/>
-<wire x1="505.46" y1="284.48" x2="505.46" y2="314.96" width="0.1524" layer="91"/>
-<pinref part="PWM" gate="G$1" pin="3"/>
-<wire x1="505.46" y1="314.96" x2="505.46" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="612.14" y1="320.04" x2="612.14" y2="314.96" width="0.1524" layer="91"/>
-<wire x1="612.14" y1="314.96" x2="505.46" y2="314.96" width="0.1524" layer="91"/>
-<junction x="505.46" y="314.96"/>
+</segment>
+<segment>
+<pinref part="PWM_IN0" gate="G$1" pin="1"/>
+<wire x1="505.46" y1="289.56" x2="505.46" y2="287.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM1_OUT" class="0">
 <segment>
 <pinref part="STM32F405" gate="G$1" pin="29"/>
-<wire x1="535.94" y1="208.28" x2="535.94" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="535.94" y1="200.66" x2="566.42" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="566.42" y1="200.66" x2="566.42" y2="271.78" width="0.1524" layer="91"/>
-<wire x1="566.42" y1="271.78" x2="525.78" y2="271.78" width="0.1524" layer="91"/>
-<wire x1="525.78" y1="271.78" x2="525.78" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="PWM_R1" gate="G$1" pin="1"/>
-<wire x1="525.78" y1="287.02" x2="515.62" y2="287.02" width="0.1524" layer="91"/>
-<wire x1="515.62" y1="287.02" x2="515.62" y2="312.42" width="0.1524" layer="91"/>
-<pinref part="PWM1" gate="G$1" pin="3"/>
-<wire x1="515.62" y1="312.42" x2="515.62" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="624.84" y1="320.04" x2="624.84" y2="312.42" width="0.1524" layer="91"/>
-<wire x1="624.84" y1="312.42" x2="515.62" y2="312.42" width="0.1524" layer="91"/>
-<junction x="515.62" y="312.42"/>
+<wire x1="535.94" y1="208.28" x2="535.94" y2="203.2" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="PWM2_OUT" class="0">
 <segment>
-<pinref part="STM32F405" gate="G$1" pin="27"/>
-<wire x1="530.86" y1="208.28" x2="530.86" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="530.86" y1="198.12" x2="568.96" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="568.96" y1="198.12" x2="568.96" y2="274.32" width="0.1524" layer="91"/>
-<wire x1="568.96" y1="274.32" x2="528.32" y2="274.32" width="0.1524" layer="91"/>
-<wire x1="528.32" y1="274.32" x2="528.32" y2="289.56" width="0.1524" layer="91"/>
-<wire x1="528.32" y1="289.56" x2="525.78" y2="289.56" width="0.1524" layer="91"/>
-<pinref part="PWM_R2" gate="G$1" pin="1"/>
-<wire x1="525.78" y1="289.56" x2="525.78" y2="309.88" width="0.1524" layer="91"/>
-<pinref part="PWM2" gate="G$1" pin="3"/>
-<wire x1="525.78" y1="309.88" x2="525.78" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="637.54" y1="320.04" x2="637.54" y2="309.88" width="0.1524" layer="91"/>
-<wire x1="637.54" y1="309.88" x2="525.78" y2="309.88" width="0.1524" layer="91"/>
-<junction x="525.78" y="309.88"/>
+<pinref part="PWM_IN1" gate="G$1" pin="1"/>
+<wire x1="546.1" y1="294.64" x2="546.1" y2="292.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM3_OUT" class="0">
 <segment>
 <pinref part="STM32F405" gate="G$1" pin="26"/>
-<wire x1="528.32" y1="208.28" x2="528.32" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="528.32" y1="195.58" x2="571.5" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="571.5" y1="195.58" x2="571.5" y2="276.86" width="0.1524" layer="91"/>
-<pinref part="PWM_R3" gate="G$1" pin="1"/>
-<wire x1="571.5" y1="276.86" x2="535.94" y2="276.86" width="0.1524" layer="91"/>
-<wire x1="535.94" y1="276.86" x2="535.94" y2="307.34" width="0.1524" layer="91"/>
-<pinref part="PWM3" gate="G$1" pin="3"/>
-<wire x1="535.94" y1="307.34" x2="535.94" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="650.24" y1="320.04" x2="650.24" y2="307.34" width="0.1524" layer="91"/>
-<wire x1="650.24" y1="307.34" x2="535.94" y2="307.34" width="0.1524" layer="91"/>
-<junction x="535.94" y="307.34"/>
+<wire x1="528.32" y1="208.28" x2="528.32" y2="203.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="PWM_IN3" gate="G$1" pin="1"/>
+<wire x1="635" y1="297.18" x2="635" y2="294.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM4_OUT" class="0">
 <segment>
 <pinref part="STM32F405" gate="G$1" pin="23"/>
-<wire x1="520.7" y1="208.28" x2="520.7" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="520.7" y1="193.04" x2="574.04" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="574.04" y1="193.04" x2="574.04" y2="279.4" width="0.1524" layer="91"/>
-<pinref part="PWM_R4" gate="G$1" pin="1"/>
-<wire x1="574.04" y1="279.4" x2="546.1" y2="279.4" width="0.1524" layer="91"/>
-<wire x1="546.1" y1="279.4" x2="546.1" y2="304.8" width="0.1524" layer="91"/>
-<pinref part="PWM4" gate="G$1" pin="3"/>
-<wire x1="546.1" y1="304.8" x2="546.1" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="662.94" y1="320.04" x2="662.94" y2="304.8" width="0.1524" layer="91"/>
-<wire x1="662.94" y1="304.8" x2="546.1" y2="304.8" width="0.1524" layer="91"/>
-<junction x="546.1" y="304.8"/>
+<wire x1="520.7" y1="208.28" x2="520.7" y2="203.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="PWM_IN4" gate="G$1" pin="1"/>
+<wire x1="673.1" y1="297.18" x2="673.1" y2="294.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM5_OUT" class="0">
 <segment>
 <pinref part="STM32F405" gate="G$1" pin="22"/>
-<wire x1="518.16" y1="208.28" x2="518.16" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="518.16" y1="190.5" x2="576.58" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="576.58" y1="190.5" x2="576.58" y2="281.94" width="0.1524" layer="91"/>
-<pinref part="PWM_R5" gate="G$1" pin="1"/>
-<wire x1="576.58" y1="281.94" x2="556.26" y2="281.94" width="0.1524" layer="91"/>
-<wire x1="556.26" y1="281.94" x2="556.26" y2="302.26" width="0.1524" layer="91"/>
-<pinref part="PWM5" gate="G$1" pin="3"/>
-<wire x1="556.26" y1="302.26" x2="556.26" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="675.64" y1="320.04" x2="675.64" y2="302.26" width="0.1524" layer="91"/>
-<wire x1="675.64" y1="302.26" x2="556.26" y2="302.26" width="0.1524" layer="91"/>
-<junction x="556.26" y="302.26"/>
+<wire x1="518.16" y1="208.28" x2="518.16" y2="203.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="PWM_IN5" gate="G$1" pin="1"/>
+<wire x1="713.74" y1="294.64" x2="713.74" y2="292.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM6_OUT" class="0">
 <segment>
 <pinref part="STM32F405" gate="G$1" pin="17"/>
-<wire x1="505.46" y1="208.28" x2="505.46" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="505.46" y1="187.96" x2="579.12" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="579.12" y1="187.96" x2="579.12" y2="284.48" width="0.1524" layer="91"/>
-<pinref part="PWM_R6" gate="G$1" pin="1"/>
-<wire x1="579.12" y1="284.48" x2="566.42" y2="284.48" width="0.1524" layer="91"/>
-<wire x1="566.42" y1="284.48" x2="566.42" y2="299.72" width="0.1524" layer="91"/>
-<pinref part="PWM6" gate="G$1" pin="3"/>
-<wire x1="566.42" y1="299.72" x2="566.42" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="688.34" y1="320.04" x2="688.34" y2="299.72" width="0.1524" layer="91"/>
-<wire x1="688.34" y1="299.72" x2="566.42" y2="299.72" width="0.1524" layer="91"/>
-<junction x="566.42" y="299.72"/>
+<wire x1="505.46" y1="208.28" x2="505.46" y2="203.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="PWM_IN6" gate="G$1" pin="1"/>
+<wire x1="754.38" y1="297.18" x2="754.38" y2="294.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM7_OUT" class="0">
 <segment>
 <pinref part="STM32F405" gate="G$1" pin="16"/>
-<wire x1="497.84" y1="215.9" x2="497.84" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="497.84" y1="185.42" x2="581.66" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="581.66" y1="185.42" x2="581.66" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="PWM_R7" gate="G$1" pin="1"/>
-<wire x1="581.66" y1="287.02" x2="576.58" y2="287.02" width="0.1524" layer="91"/>
-<wire x1="576.58" y1="287.02" x2="576.58" y2="297.18" width="0.1524" layer="91"/>
-<pinref part="PWM7" gate="G$1" pin="3"/>
-<wire x1="576.58" y1="297.18" x2="576.58" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="701.04" y1="320.04" x2="701.04" y2="297.18" width="0.1524" layer="91"/>
-<wire x1="701.04" y1="297.18" x2="576.58" y2="297.18" width="0.1524" layer="91"/>
-<junction x="576.58" y="297.18"/>
+<wire x1="497.84" y1="215.9" x2="492.76" y2="215.9" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="N$21" class="0">
 <segment>
-<pinref part="PWM_R8" gate="G$1" pin="2"/>
-<pinref part="PWM_LED8" gate="G$1" pin="A"/>
-<wire x1="586.74" y1="327.66" x2="586.74" y2="330.2" width="0.1524" layer="91"/>
+<pinref part="PWM_IN7" gate="G$1" pin="1"/>
+<wire x1="795.02" y1="297.18" x2="795.02" y2="294.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM8_OUT" class="0">
 <segment>
-<pinref part="PWM_R8" gate="G$1" pin="1"/>
-<wire x1="586.74" y1="287.02" x2="586.74" y2="294.64" width="0.1524" layer="91"/>
 <pinref part="STM32F405" gate="G$1" pin="15"/>
-<wire x1="586.74" y1="294.64" x2="586.74" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="497.84" y1="218.44" x2="495.3" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="495.3" y1="218.44" x2="495.3" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="495.3" y1="182.88" x2="584.2" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="584.2" y1="182.88" x2="584.2" y2="287.02" width="0.1524" layer="91"/>
-<wire x1="584.2" y1="287.02" x2="586.74" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="PWM8" gate="G$1" pin="3"/>
-<wire x1="713.74" y1="320.04" x2="713.74" y2="294.64" width="0.1524" layer="91"/>
-<wire x1="713.74" y1="294.64" x2="586.74" y2="294.64" width="0.1524" layer="91"/>
-<junction x="586.74" y="294.64"/>
+<wire x1="497.84" y1="218.44" x2="492.76" y2="218.44" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="N$22" class="0">
 <segment>
-<pinref part="PWM_R9" gate="G$1" pin="2"/>
-<pinref part="PWM_LED9" gate="G$1" pin="A"/>
-<wire x1="596.9" y1="327.66" x2="596.9" y2="330.2" width="0.1524" layer="91"/>
+<pinref part="PWM_IN8" gate="G$1" pin="1"/>
+<wire x1="838.2" y1="297.18" x2="838.2" y2="294.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM9_OUT" class="0">
 <segment>
-<pinref part="PWM_R9" gate="G$1" pin="1"/>
-<wire x1="596.9" y1="284.48" x2="596.9" y2="292.1" width="0.1524" layer="91"/>
 <pinref part="STM32F405" gate="G$1" pin="14"/>
-<wire x1="596.9" y1="292.1" x2="596.9" y2="317.5" width="0.1524" layer="91"/>
 <wire x1="497.84" y1="220.98" x2="492.76" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="492.76" y1="220.98" x2="492.76" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="492.76" y1="180.34" x2="586.74" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="586.74" y1="180.34" x2="586.74" y2="284.48" width="0.1524" layer="91"/>
-<wire x1="586.74" y1="284.48" x2="596.9" y2="284.48" width="0.1524" layer="91"/>
-<pinref part="PWM9" gate="G$1" pin="3"/>
-<wire x1="726.44" y1="320.04" x2="726.44" y2="292.1" width="0.1524" layer="91"/>
-<wire x1="726.44" y1="292.1" x2="596.9" y2="292.1" width="0.1524" layer="91"/>
-<junction x="596.9" y="292.1"/>
+</segment>
+<segment>
+<pinref part="PWM_IN9" gate="G$1" pin="1"/>
+<wire x1="878.84" y1="294.64" x2="878.84" y2="292.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I2C_SCL" class="0">
@@ -12536,87 +12663,155 @@ Source: 008-0260-0_E.pdf</description>
 </net>
 <net name="GND_ESC" class="3">
 <segment>
-<pinref part="PWM9" gate="G$1" pin="1"/>
-<pinref part="GND_ESC" gate="1" pin="GND"/>
-<wire x1="731.52" y1="320.04" x2="731.52" y2="317.5" width="0.1524" layer="91"/>
-<pinref part="PWM8" gate="G$1" pin="1"/>
-<wire x1="731.52" y1="317.5" x2="731.52" y2="314.96" width="0.1524" layer="91"/>
-<wire x1="731.52" y1="314.96" x2="731.52" y2="312.42" width="0.1524" layer="91"/>
-<wire x1="731.52" y1="312.42" x2="731.52" y2="309.88" width="0.1524" layer="91"/>
-<wire x1="731.52" y1="309.88" x2="731.52" y2="307.34" width="0.1524" layer="91"/>
-<wire x1="731.52" y1="307.34" x2="731.52" y2="304.8" width="0.1524" layer="91"/>
-<wire x1="731.52" y1="304.8" x2="731.52" y2="294.64" width="0.1524" layer="91"/>
-<wire x1="718.82" y1="320.04" x2="718.82" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="718.82" y1="317.5" x2="731.52" y2="317.5" width="0.1524" layer="91"/>
-<junction x="731.52" y="317.5"/>
-<pinref part="PWM7" gate="G$1" pin="1"/>
-<wire x1="706.12" y1="320.04" x2="706.12" y2="314.96" width="0.1524" layer="91"/>
-<wire x1="706.12" y1="314.96" x2="731.52" y2="314.96" width="0.1524" layer="91"/>
-<junction x="731.52" y="314.96"/>
-<pinref part="PWM6" gate="G$1" pin="1"/>
-<wire x1="693.42" y1="320.04" x2="693.42" y2="312.42" width="0.1524" layer="91"/>
-<wire x1="693.42" y1="312.42" x2="731.52" y2="312.42" width="0.1524" layer="91"/>
-<junction x="731.52" y="312.42"/>
-<pinref part="PWM5" gate="G$1" pin="1"/>
-<wire x1="680.72" y1="320.04" x2="680.72" y2="309.88" width="0.1524" layer="91"/>
-<wire x1="680.72" y1="309.88" x2="731.52" y2="309.88" width="0.1524" layer="91"/>
-<junction x="731.52" y="309.88"/>
-<pinref part="PWM" gate="G$1" pin="1"/>
-<wire x1="617.22" y1="320.04" x2="617.22" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="617.22" y1="317.5" x2="731.52" y2="317.5" width="0.1524" layer="91"/>
-<pinref part="PWM1" gate="G$1" pin="1"/>
-<wire x1="629.92" y1="320.04" x2="629.92" y2="314.96" width="0.1524" layer="91"/>
-<wire x1="629.92" y1="314.96" x2="731.52" y2="314.96" width="0.1524" layer="91"/>
-<pinref part="PWM2" gate="G$1" pin="1"/>
-<wire x1="642.62" y1="320.04" x2="642.62" y2="312.42" width="0.1524" layer="91"/>
-<wire x1="642.62" y1="312.42" x2="731.52" y2="312.42" width="0.1524" layer="91"/>
-<pinref part="PWM3" gate="G$1" pin="1"/>
-<wire x1="655.32" y1="320.04" x2="655.32" y2="309.88" width="0.1524" layer="91"/>
-<wire x1="655.32" y1="309.88" x2="731.52" y2="309.88" width="0.1524" layer="91"/>
-<pinref part="PWM4" gate="G$1" pin="1"/>
-<wire x1="668.02" y1="320.04" x2="668.02" y2="307.34" width="0.1524" layer="91"/>
-<wire x1="668.02" y1="307.34" x2="731.52" y2="307.34" width="0.1524" layer="91"/>
-<junction x="731.52" y="307.34"/>
-<pinref part="PWM_LED9" gate="G$1" pin="C"/>
-<wire x1="596.9" y1="337.82" x2="596.9" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="596.9" y1="340.36" x2="736.6" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="736.6" y1="340.36" x2="736.6" y2="304.8" width="0.1524" layer="91"/>
-<wire x1="736.6" y1="304.8" x2="731.52" y2="304.8" width="0.1524" layer="91"/>
-<junction x="731.52" y="304.8"/>
-<pinref part="PWM_LED8" gate="G$1" pin="C"/>
-<wire x1="586.74" y1="337.82" x2="586.74" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="586.74" y1="340.36" x2="596.9" y2="340.36" width="0.1524" layer="91"/>
-<junction x="596.9" y="340.36"/>
-<pinref part="PWM_LED7" gate="G$1" pin="C"/>
-<wire x1="576.58" y1="337.82" x2="576.58" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="576.58" y1="340.36" x2="586.74" y2="340.36" width="0.1524" layer="91"/>
-<junction x="586.74" y="340.36"/>
-<pinref part="PWM_LED6" gate="G$1" pin="C"/>
-<wire x1="566.42" y1="337.82" x2="566.42" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="566.42" y1="340.36" x2="576.58" y2="340.36" width="0.1524" layer="91"/>
-<junction x="576.58" y="340.36"/>
-<pinref part="PWM_LED5" gate="G$1" pin="C"/>
-<wire x1="556.26" y1="337.82" x2="556.26" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="556.26" y1="340.36" x2="566.42" y2="340.36" width="0.1524" layer="91"/>
-<junction x="566.42" y="340.36"/>
-<pinref part="PWM_LED4" gate="G$1" pin="C"/>
-<wire x1="546.1" y1="337.82" x2="546.1" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="546.1" y1="340.36" x2="556.26" y2="340.36" width="0.1524" layer="91"/>
-<junction x="556.26" y="340.36"/>
-<pinref part="PWM_LED3" gate="G$1" pin="C"/>
-<wire x1="535.94" y1="337.82" x2="535.94" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="535.94" y1="340.36" x2="546.1" y2="340.36" width="0.1524" layer="91"/>
-<junction x="546.1" y="340.36"/>
-<pinref part="PWM_LED2" gate="G$1" pin="C"/>
-<wire x1="525.78" y1="340.36" x2="535.94" y2="340.36" width="0.1524" layer="91"/>
-<junction x="535.94" y="340.36"/>
-<pinref part="PWM_LED1" gate="G$1" pin="C"/>
-<wire x1="515.62" y1="340.36" x2="525.78" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="525.78" y1="340.36" x2="525.78" y2="337.82" width="0.1524" layer="91"/>
+<pinref part="OPI_PWM0" gate="A" pin="EMIT"/>
+<wire x1="510.54" y1="320.04" x2="510.54" y2="322.58" width="0.1524" layer="91"/>
+<pinref part="GND_ESC1" gate="1" pin="GND"/>
+<wire x1="510.54" y1="322.58" x2="515.62" y2="322.58" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="322.58" x2="518.16" y2="322.58" width="0.1524" layer="91"/>
+<wire x1="518.16" y1="322.58" x2="518.16" y2="320.04" width="0.1524" layer="91"/>
+<pinref part="P0" gate="G$1" pin="1"/>
+<wire x1="510.54" y1="330.2" x2="510.54" y2="322.58" width="0.1524" layer="91"/>
+<junction x="510.54" y="322.58"/>
 <pinref part="PWM_LED" gate="G$1" pin="C"/>
-<wire x1="505.46" y1="337.82" x2="505.46" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="505.46" y1="340.36" x2="515.62" y2="340.36" width="0.1524" layer="91"/>
-<wire x1="515.62" y1="340.36" x2="515.62" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="342.9" x2="515.62" y2="342.9" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="342.9" x2="515.62" y2="322.58" width="0.1524" layer="91"/>
+<junction x="515.62" y="322.58"/>
+</segment>
+<segment>
+<pinref part="OPI_PWM1" gate="A" pin="EMIT"/>
+<wire x1="551.18" y1="325.12" x2="551.18" y2="327.66" width="0.1524" layer="91"/>
+<pinref part="GND_ESC2" gate="1" pin="GND"/>
+<wire x1="551.18" y1="327.66" x2="556.26" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="556.26" y1="327.66" x2="558.8" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="558.8" y1="327.66" x2="558.8" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="551.18" y1="330.2" x2="551.18" y2="327.66" width="0.1524" layer="91"/>
+<junction x="551.18" y="327.66"/>
+<wire x1="556.26" y1="347.98" x2="556.26" y2="327.66" width="0.1524" layer="91"/>
+<junction x="556.26" y="327.66"/>
+<pinref part="P1" gate="G$1" pin="1"/>
+<pinref part="PWM_LED1" gate="G$1" pin="C"/>
+<wire x1="553.72" y1="347.98" x2="556.26" y2="347.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OPI_PWM2" gate="A" pin="EMIT"/>
+<wire x1="596.9" y1="327.66" x2="596.9" y2="330.2" width="0.1524" layer="91"/>
+<pinref part="GND_ESC3" gate="1" pin="GND"/>
+<wire x1="596.9" y1="330.2" x2="601.98" y2="330.2" width="0.1524" layer="91"/>
+<wire x1="601.98" y1="330.2" x2="604.52" y2="330.2" width="0.1524" layer="91"/>
+<wire x1="604.52" y1="330.2" x2="604.52" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="596.9" y1="332.74" x2="596.9" y2="330.2" width="0.1524" layer="91"/>
+<junction x="596.9" y="330.2"/>
+<wire x1="601.98" y1="350.52" x2="601.98" y2="330.2" width="0.1524" layer="91"/>
+<junction x="601.98" y="330.2"/>
+<pinref part="P2" gate="G$1" pin="1"/>
+<pinref part="PWM_LED2" gate="G$1" pin="C"/>
+<wire x1="599.44" y1="350.52" x2="601.98" y2="350.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OPI_PWM3" gate="A" pin="EMIT"/>
+<wire x1="640.08" y1="327.66" x2="640.08" y2="330.2" width="0.1524" layer="91"/>
+<pinref part="GND_ESC4" gate="1" pin="GND"/>
+<wire x1="640.08" y1="330.2" x2="645.16" y2="330.2" width="0.1524" layer="91"/>
+<wire x1="645.16" y1="330.2" x2="647.7" y2="330.2" width="0.1524" layer="91"/>
+<wire x1="647.7" y1="330.2" x2="647.7" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="640.08" y1="332.74" x2="640.08" y2="330.2" width="0.1524" layer="91"/>
+<junction x="640.08" y="330.2"/>
+<junction x="645.16" y="330.2"/>
+<pinref part="P3" gate="G$1" pin="1"/>
+<pinref part="PWM_LED3" gate="G$1" pin="C"/>
+<wire x1="645.16" y1="347.98" x2="645.16" y2="330.2" width="0.1524" layer="91"/>
+<wire x1="642.62" y1="347.98" x2="645.16" y2="347.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OPI_PWM4" gate="A" pin="EMIT"/>
+<wire x1="678.18" y1="327.66" x2="678.18" y2="330.2" width="0.1524" layer="91"/>
+<pinref part="GND_ESC5" gate="1" pin="GND"/>
+<wire x1="678.18" y1="330.2" x2="683.26" y2="330.2" width="0.1524" layer="91"/>
+<wire x1="683.26" y1="330.2" x2="685.8" y2="330.2" width="0.1524" layer="91"/>
+<wire x1="685.8" y1="330.2" x2="685.8" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="678.18" y1="337.82" x2="678.18" y2="330.2" width="0.1524" layer="91"/>
+<junction x="678.18" y="330.2"/>
+<wire x1="683.26" y1="350.52" x2="683.26" y2="330.2" width="0.1524" layer="91"/>
+<junction x="683.26" y="330.2"/>
+<pinref part="P4" gate="G$1" pin="1"/>
+<pinref part="PWM_LED4" gate="G$1" pin="C"/>
+<wire x1="683.26" y1="350.52" x2="680.72" y2="350.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OPI_PWM5" gate="A" pin="EMIT"/>
+<wire x1="718.82" y1="325.12" x2="718.82" y2="327.66" width="0.1524" layer="91"/>
+<pinref part="GND_ESC6" gate="1" pin="GND"/>
+<wire x1="718.82" y1="327.66" x2="723.9" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="723.9" y1="327.66" x2="726.44" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="726.44" y1="327.66" x2="726.44" y2="325.12" width="0.1524" layer="91"/>
+<junction x="718.82" y="327.66"/>
+<wire x1="718.82" y1="335.28" x2="718.82" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="723.9" y1="347.98" x2="723.9" y2="327.66" width="0.1524" layer="91"/>
+<junction x="723.9" y="327.66"/>
+<pinref part="P5" gate="G$1" pin="1"/>
+<junction x="718.82" y="335.28"/>
+<pinref part="PWM_LED5" gate="G$1" pin="C"/>
+<wire x1="721.36" y1="347.98" x2="723.9" y2="347.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OPI_PWM6" gate="A" pin="EMIT"/>
+<wire x1="759.46" y1="327.66" x2="759.46" y2="330.2" width="0.1524" layer="91"/>
+<pinref part="GND_ESC7" gate="1" pin="GND"/>
+<wire x1="759.46" y1="330.2" x2="764.54" y2="330.2" width="0.1524" layer="91"/>
+<wire x1="764.54" y1="330.2" x2="767.08" y2="330.2" width="0.1524" layer="91"/>
+<wire x1="767.08" y1="330.2" x2="767.08" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="759.46" y1="337.82" x2="759.46" y2="330.2" width="0.1524" layer="91"/>
+<junction x="759.46" y="330.2"/>
+<wire x1="764.54" y1="350.52" x2="764.54" y2="330.2" width="0.1524" layer="91"/>
+<junction x="764.54" y="330.2"/>
+<pinref part="P6" gate="G$1" pin="1"/>
+<pinref part="PWM_LED6" gate="G$1" pin="C"/>
+<wire x1="762" y1="350.52" x2="764.54" y2="350.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OPI_PWM7" gate="A" pin="EMIT"/>
+<wire x1="800.1" y1="327.66" x2="800.1" y2="330.2" width="0.1524" layer="91"/>
+<pinref part="GND_ESC8" gate="1" pin="GND"/>
+<wire x1="800.1" y1="330.2" x2="805.18" y2="330.2" width="0.1524" layer="91"/>
+<wire x1="805.18" y1="330.2" x2="807.72" y2="330.2" width="0.1524" layer="91"/>
+<wire x1="807.72" y1="330.2" x2="807.72" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="800.1" y1="337.82" x2="800.1" y2="330.2" width="0.1524" layer="91"/>
+<junction x="800.1" y="330.2"/>
+<wire x1="805.18" y1="350.52" x2="805.18" y2="330.2" width="0.1524" layer="91"/>
+<junction x="805.18" y="330.2"/>
+<pinref part="P7" gate="G$1" pin="1"/>
+<pinref part="PWM_LED7" gate="G$1" pin="C"/>
+<wire x1="805.18" y1="350.52" x2="802.64" y2="350.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OPI_PWM8" gate="A" pin="EMIT"/>
+<wire x1="843.28" y1="327.66" x2="843.28" y2="330.2" width="0.1524" layer="91"/>
+<pinref part="GND_ESC9" gate="1" pin="GND"/>
+<wire x1="843.28" y1="330.2" x2="848.36" y2="330.2" width="0.1524" layer="91"/>
+<wire x1="848.36" y1="330.2" x2="850.9" y2="330.2" width="0.1524" layer="91"/>
+<wire x1="850.9" y1="330.2" x2="850.9" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="843.28" y1="337.82" x2="843.28" y2="330.2" width="0.1524" layer="91"/>
+<junction x="843.28" y="330.2"/>
+<wire x1="848.36" y1="350.52" x2="848.36" y2="330.2" width="0.1524" layer="91"/>
+<junction x="848.36" y="330.2"/>
+<pinref part="P8" gate="G$1" pin="1"/>
+<pinref part="PWM_LED8" gate="G$1" pin="C"/>
+<wire x1="848.36" y1="350.52" x2="845.82" y2="350.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="OPI_PWM9" gate="A" pin="EMIT"/>
+<wire x1="883.92" y1="325.12" x2="883.92" y2="327.66" width="0.1524" layer="91"/>
+<pinref part="GND_ESC10" gate="1" pin="GND"/>
+<wire x1="883.92" y1="327.66" x2="889" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="889" y1="327.66" x2="891.54" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="891.54" y1="327.66" x2="891.54" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="883.92" y1="335.28" x2="883.92" y2="327.66" width="0.1524" layer="91"/>
+<junction x="883.92" y="327.66"/>
+<wire x1="889" y1="347.98" x2="889" y2="327.66" width="0.1524" layer="91"/>
+<junction x="889" y="327.66"/>
+<pinref part="P9" gate="G$1" pin="1"/>
+<pinref part="PWM_LED9" gate="G$1" pin="C"/>
+<wire x1="886.46" y1="347.98" x2="889" y2="347.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="JTAG_TDI" class="0">
@@ -12725,6 +12920,299 @@ Source: 008-0260-0_E.pdf</description>
 <wire x1="462.28" y1="256.54" x2="462.28" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="MICROSD" gate="1" pin="!CS"/>
 <wire x1="462.28" y1="162.56" x2="436.88" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PWM2_OUT" class="0">
+<segment>
+<pinref part="STM32F405" gate="G$1" pin="27"/>
+<wire x1="530.86" y1="208.28" x2="530.86" y2="203.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="PWM_IN2" gate="G$1" pin="1"/>
+<wire x1="591.82" y1="297.18" x2="591.82" y2="294.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="PWM_IN0" gate="G$1" pin="2"/>
+<pinref part="OPI_PWM0" gate="A" pin="A"/>
+<wire x1="505.46" y1="299.72" x2="505.46" y2="302.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PWM0_BO" class="0">
+<segment>
+<pinref part="OPI_PWM0" gate="A" pin="COL"/>
+<pinref part="BIAS_R" gate="G$1" pin="1"/>
+<wire x1="505.46" y1="320.04" x2="500.38" y2="320.04" width="0.1524" layer="91"/>
+<pinref part="P0" gate="G$1" pin="3"/>
+<wire x1="500.38" y1="320.04" x2="497.84" y2="320.04" width="0.1524" layer="91"/>
+<wire x1="505.46" y1="330.2" x2="505.46" y2="320.04" width="0.1524" layer="91"/>
+<junction x="505.46" y="320.04"/>
+<pinref part="PWM_R" gate="G$1" pin="1"/>
+<wire x1="500.38" y1="332.74" x2="500.38" y2="320.04" width="0.1524" layer="91"/>
+<junction x="500.38" y="320.04"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="PWM_IN1" gate="G$1" pin="2"/>
+<pinref part="OPI_PWM1" gate="A" pin="A"/>
+<wire x1="546.1" y1="304.8" x2="546.1" y2="307.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PWM1_BO" class="0">
+<segment>
+<pinref part="OPI_PWM1" gate="A" pin="COL"/>
+<pinref part="BIAS_R1" gate="G$1" pin="1"/>
+<wire x1="546.1" y1="325.12" x2="541.02" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="541.02" y1="325.12" x2="538.48" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="546.1" y1="330.2" x2="546.1" y2="325.12" width="0.1524" layer="91"/>
+<junction x="546.1" y="325.12"/>
+<pinref part="P1" gate="G$1" pin="3"/>
+<pinref part="PWM_R1" gate="G$1" pin="1"/>
+<wire x1="541.02" y1="327.66" x2="541.02" y2="325.12" width="0.1524" layer="91"/>
+<junction x="541.02" y="325.12"/>
+</segment>
+</net>
+<net name="N$47" class="0">
+<segment>
+<pinref part="PWM_IN2" gate="G$1" pin="2"/>
+<pinref part="OPI_PWM2" gate="A" pin="A"/>
+<wire x1="591.82" y1="307.34" x2="591.82" y2="309.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PWM2_BO" class="0">
+<segment>
+<pinref part="OPI_PWM2" gate="A" pin="COL"/>
+<pinref part="BIAS_R2" gate="G$1" pin="1"/>
+<wire x1="591.82" y1="327.66" x2="586.74" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="586.74" y1="327.66" x2="584.2" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="591.82" y1="332.74" x2="591.82" y2="327.66" width="0.1524" layer="91"/>
+<junction x="591.82" y="327.66"/>
+<pinref part="P2" gate="G$1" pin="3"/>
+<pinref part="PWM_R2" gate="G$1" pin="1"/>
+<wire x1="586.74" y1="332.74" x2="586.74" y2="327.66" width="0.1524" layer="91"/>
+<junction x="586.74" y="327.66"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="PWM_LED1" gate="G$1" pin="A"/>
+<pinref part="PWM_R1" gate="G$1" pin="2"/>
+<wire x1="546.1" y1="347.98" x2="541.02" y2="347.98" width="0.1524" layer="91"/>
+<wire x1="541.02" y1="347.98" x2="541.02" y2="337.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="PWM_IN3" gate="G$1" pin="2"/>
+<pinref part="OPI_PWM3" gate="A" pin="A"/>
+<wire x1="635" y1="307.34" x2="635" y2="309.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PWM3_BO" class="0">
+<segment>
+<pinref part="OPI_PWM3" gate="A" pin="COL"/>
+<pinref part="BIAS_R3" gate="G$1" pin="1"/>
+<wire x1="635" y1="327.66" x2="629.92" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="629.92" y1="327.66" x2="627.38" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="635" y1="332.74" x2="635" y2="327.66" width="0.1524" layer="91"/>
+<junction x="635" y="327.66"/>
+<pinref part="P3" gate="G$1" pin="3"/>
+<pinref part="PWM_R3" gate="G$1" pin="1"/>
+<wire x1="629.92" y1="330.2" x2="629.92" y2="327.66" width="0.1524" layer="91"/>
+<junction x="629.92" y="327.66"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="PWM_IN4" gate="G$1" pin="2"/>
+<pinref part="OPI_PWM4" gate="A" pin="A"/>
+<wire x1="673.1" y1="307.34" x2="673.1" y2="309.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PWM4_BO" class="0">
+<segment>
+<pinref part="OPI_PWM4" gate="A" pin="COL"/>
+<pinref part="BIAS_R4" gate="G$1" pin="1"/>
+<wire x1="673.1" y1="327.66" x2="668.02" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="668.02" y1="327.66" x2="665.48" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="673.1" y1="337.82" x2="673.1" y2="327.66" width="0.1524" layer="91"/>
+<junction x="673.1" y="327.66"/>
+<pinref part="P4" gate="G$1" pin="3"/>
+<pinref part="PWM_R4" gate="G$1" pin="1"/>
+<wire x1="668.02" y1="330.2" x2="668.02" y2="327.66" width="0.1524" layer="91"/>
+<junction x="668.02" y="327.66"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="PWM_IN5" gate="G$1" pin="2"/>
+<pinref part="OPI_PWM5" gate="A" pin="A"/>
+<wire x1="713.74" y1="304.8" x2="713.74" y2="307.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PWM5_BO" class="0">
+<segment>
+<pinref part="OPI_PWM5" gate="A" pin="COL"/>
+<pinref part="BIAS_R5" gate="G$1" pin="1"/>
+<wire x1="713.74" y1="325.12" x2="708.66" y2="325.12" width="0.1524" layer="91"/>
+<junction x="713.74" y="325.12"/>
+<pinref part="P5" gate="G$1" pin="3"/>
+<wire x1="708.66" y1="325.12" x2="706.12" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="713.74" y1="335.28" x2="713.74" y2="325.12" width="0.1524" layer="91"/>
+<junction x="713.74" y="335.28"/>
+<pinref part="PWM_R5" gate="G$1" pin="1"/>
+<wire x1="708.66" y1="327.66" x2="708.66" y2="325.12" width="0.1524" layer="91"/>
+<junction x="708.66" y="325.12"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="PWM_IN6" gate="G$1" pin="2"/>
+<pinref part="OPI_PWM6" gate="A" pin="A"/>
+<wire x1="754.38" y1="307.34" x2="754.38" y2="309.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PWM6_BO" class="0">
+<segment>
+<pinref part="OPI_PWM6" gate="A" pin="COL"/>
+<pinref part="BIAS_R6" gate="G$1" pin="1"/>
+<wire x1="754.38" y1="327.66" x2="749.3" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="749.3" y1="327.66" x2="746.76" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="754.38" y1="337.82" x2="754.38" y2="327.66" width="0.1524" layer="91"/>
+<junction x="754.38" y="327.66"/>
+<pinref part="P6" gate="G$1" pin="3"/>
+<pinref part="PWM_R6" gate="G$1" pin="1"/>
+<wire x1="749.3" y1="330.2" x2="749.3" y2="327.66" width="0.1524" layer="91"/>
+<junction x="749.3" y="327.66"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="PWM_IN7" gate="G$1" pin="2"/>
+<pinref part="OPI_PWM7" gate="A" pin="A"/>
+<wire x1="795.02" y1="307.34" x2="795.02" y2="309.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PWM7_BO" class="0">
+<segment>
+<pinref part="OPI_PWM7" gate="A" pin="COL"/>
+<pinref part="BIAS_R7" gate="G$1" pin="1"/>
+<wire x1="795.02" y1="327.66" x2="789.94" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="789.94" y1="327.66" x2="787.4" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="795.02" y1="337.82" x2="795.02" y2="327.66" width="0.1524" layer="91"/>
+<junction x="795.02" y="327.66"/>
+<pinref part="P7" gate="G$1" pin="3"/>
+<pinref part="PWM_R7" gate="G$1" pin="1"/>
+<wire x1="789.94" y1="330.2" x2="789.94" y2="327.66" width="0.1524" layer="91"/>
+<junction x="789.94" y="327.66"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="PWM_IN8" gate="G$1" pin="2"/>
+<pinref part="OPI_PWM8" gate="A" pin="A"/>
+<wire x1="838.2" y1="307.34" x2="838.2" y2="309.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PWM8_BO" class="0">
+<segment>
+<pinref part="OPI_PWM8" gate="A" pin="COL"/>
+<pinref part="BIAS_R8" gate="G$1" pin="1"/>
+<wire x1="838.2" y1="327.66" x2="833.12" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="833.12" y1="327.66" x2="830.58" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="838.2" y1="337.82" x2="838.2" y2="327.66" width="0.1524" layer="91"/>
+<junction x="838.2" y="327.66"/>
+<pinref part="P8" gate="G$1" pin="3"/>
+<pinref part="PWM_R8" gate="G$1" pin="1"/>
+<wire x1="833.12" y1="330.2" x2="833.12" y2="327.66" width="0.1524" layer="91"/>
+<junction x="833.12" y="327.66"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="PWM_R2" gate="G$1" pin="2"/>
+<wire x1="586.74" y1="342.9" x2="586.74" y2="350.52" width="0.1524" layer="91"/>
+<pinref part="PWM_LED2" gate="G$1" pin="A"/>
+<wire x1="586.74" y1="350.52" x2="591.82" y2="350.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="PWM_R3" gate="G$1" pin="2"/>
+<wire x1="629.92" y1="340.36" x2="629.92" y2="347.98" width="0.1524" layer="91"/>
+<pinref part="PWM_LED3" gate="G$1" pin="A"/>
+<wire x1="629.92" y1="347.98" x2="635" y2="347.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="PWM_IN9" gate="G$1" pin="2"/>
+<pinref part="OPI_PWM9" gate="A" pin="A"/>
+<wire x1="878.84" y1="304.8" x2="878.84" y2="307.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PWM9_BO" class="0">
+<segment>
+<pinref part="OPI_PWM9" gate="A" pin="COL"/>
+<pinref part="BIAS_R9" gate="G$1" pin="1"/>
+<wire x1="878.84" y1="325.12" x2="873.76" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="873.76" y1="325.12" x2="871.22" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="878.84" y1="335.28" x2="878.84" y2="325.12" width="0.1524" layer="91"/>
+<junction x="878.84" y="325.12"/>
+<pinref part="P9" gate="G$1" pin="3"/>
+<pinref part="PWM_R9" gate="G$1" pin="1"/>
+<wire x1="873.76" y1="327.66" x2="873.76" y2="325.12" width="0.1524" layer="91"/>
+<junction x="873.76" y="325.12"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="PWM_LED9" gate="G$1" pin="A"/>
+<pinref part="PWM_R9" gate="G$1" pin="2"/>
+<wire x1="878.84" y1="347.98" x2="873.76" y2="347.98" width="0.1524" layer="91"/>
+<wire x1="873.76" y1="347.98" x2="873.76" y2="337.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="PWM_LED8" gate="G$1" pin="A"/>
+<pinref part="PWM_R8" gate="G$1" pin="2"/>
+<wire x1="838.2" y1="350.52" x2="833.12" y2="350.52" width="0.1524" layer="91"/>
+<wire x1="833.12" y1="350.52" x2="833.12" y2="340.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="PWM_LED7" gate="G$1" pin="A"/>
+<pinref part="PWM_R7" gate="G$1" pin="2"/>
+<wire x1="795.02" y1="350.52" x2="789.94" y2="350.52" width="0.1524" layer="91"/>
+<wire x1="789.94" y1="350.52" x2="789.94" y2="340.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="PWM_LED6" gate="G$1" pin="A"/>
+<pinref part="PWM_R6" gate="G$1" pin="2"/>
+<wire x1="754.38" y1="350.52" x2="749.3" y2="350.52" width="0.1524" layer="91"/>
+<wire x1="749.3" y1="350.52" x2="749.3" y2="340.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="PWM_LED5" gate="G$1" pin="A"/>
+<pinref part="PWM_R5" gate="G$1" pin="2"/>
+<wire x1="713.74" y1="347.98" x2="708.66" y2="347.98" width="0.1524" layer="91"/>
+<wire x1="708.66" y1="347.98" x2="708.66" y2="337.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="PWM_LED4" gate="G$1" pin="A"/>
+<pinref part="PWM_R4" gate="G$1" pin="2"/>
+<wire x1="673.1" y1="350.52" x2="668.02" y2="350.52" width="0.1524" layer="91"/>
+<wire x1="668.02" y1="350.52" x2="668.02" y2="340.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
